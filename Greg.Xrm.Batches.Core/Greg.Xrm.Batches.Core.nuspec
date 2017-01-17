@@ -1,18 +1,20 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>$id$</id>
+    <id>Greg.Xrm.Batches</id>
     <version>$version$</version>
     <title>$title$</title>
-    <authors>$author$</authors>
-    <owners>$author$</owners>
-    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
-    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
-    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>$description$</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
-    <copyright>Copyright 2017</copyright>
-    <tags>Tag1 Tag2</tags>
+    <authors>Riccardo Gregori</authors>
+    <owners>Riccardo Gregori</owners>
+    <licenseUrl>https://github.com/neronotte/Greg.Xrm.Batches/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/neronotte/Greg.Xrm.Batches</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>A library that can be use to streamline the development of batches for Microsoft Dynamics CRM 2013/2015/2016</description>
+    <releaseNotes>Version 1</releaseNotes>
+    <copyright>Copyright 2017 Riccardo Gregori</copyright>
+    <tags>Dynamics CRM Batches</tags>
+    <packageTypes>
+      <packageType name="Dependency"/>
+    </packageTypes>
   </metadata>
 </package>

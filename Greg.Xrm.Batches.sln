@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greg.Xrm.Batches.Core", "Gr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greg.Xrm.Batches.ConsoleUI", "Greg.Xrm.Batches.ConsoleUI\Greg.Xrm.Batches.ConsoleUI.csproj", "{8841E8B9-3782-433A-8369-1F9154EE079F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{9B5A8EBF-5B5B-4FFB-ADA7-B706E5B688ED}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
