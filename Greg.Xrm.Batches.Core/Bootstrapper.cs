@@ -170,7 +170,7 @@ namespace Greg.Xrm.Batches.Core
 			}
 			else
 			{
-				var section = (BatchesConfigurationSection)ConfigurationManager.GetSection("Avanade.Xrm.Batches");
+				var section = (BatchesConfigurationSection)ConfigurationManager.GetSection("batches");
 
 				var flowNames = section.Flows
 					.Cast<FlowConfigurationElement>()
